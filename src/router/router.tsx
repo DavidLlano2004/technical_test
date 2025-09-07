@@ -3,6 +3,7 @@ import { ErrorPage } from "../ErrorPage";
 import { LayoutWeb } from "../product/layout/LayoutWeb";
 import { Home } from "../product/pages/Home";
 import { paths } from "./paths";
+import { Contracts } from "../product/pages/Contracts";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ export const router = createBrowserRouter([
       {
         path: paths.home,
         element: <Home />,
+      },
+      {
+        path: paths.contracts,
+        element: <Contracts />,
       },
     ],
   },

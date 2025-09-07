@@ -2,8 +2,8 @@ import { Icons } from "../../assets/icons/IconProvider";
 const { LogoWeb, IconFacebook, IconYoutube, IconTwitter } = Icons;
 export const Footer = () => {
   return (
-    <div className="bg-white sm:px-20 px-3 py-10 shadow-xl">
-      <button className="active:opacity-50 transition-all ease-in duration-150">
+    <div className="bg-white sm:px-20 px-3 py-10 shadow-2xl shadow-black ">
+      <button className="active:opacity-50 transition-all ease-in duration-150 cursor-pointer">
         <img src={LogoWeb} alt="logo_web" />
       </button>
       <div className=" flex sm:flex-row flex-wrap justify-between flex-col mt-5 gap-12">
@@ -24,26 +24,26 @@ export const Footer = () => {
             <b>Oficinas a nivel nacional</b>
           </p>
         </div>
-        <div className="flex flex-col flex-1 min-w-[200px] border border-red-800">
-          <a href="/" className=" text-gray-custom-text underline">
+        <div className="flex flex-col flex-1 min-w-[200px]">
+          <a href="/" className=" text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Términos y Condiciones Canales de Servicio
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Defensoría del Consumidor Financiero
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Protección de Datos
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Definiciones Generales - Auto declaración FATCA y CRS
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Recomendaciones de Seguridad
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Ley de Transparencia
           </a>
-          <a href="/" className="text-gray-custom-text underline">
+          <a href="/" className="text-gray-custom-text underline hover:text-gray-hover-custom-text transition ease-in duration-150">
             Mapa del sitio
           </a>
         </div>

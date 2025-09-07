@@ -1,0 +1,54 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;;
+  background:#00C83C;
+  width: 40px !important;;
+  height: 40px !important;;
+  border-radius: 100% !important;;
+  
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+  background-color: #00A332;
+  transition: all 200ms ease-in-out;
+}
+
+.swiper-button-next:after{
+    font-size: 20px !important;
+}
+.swiper-button-prev:after{
+    font-size: 20px !important;;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  background-color: rgb(190, 190, 190);      /* color desactivado */
+  opacity: 0.5;     /* opcional, para verse más apagado */
+  cursor: not-allowed;
+  
+}
+
+.swiperProductsRecommend .swiper-button-next.swiper-button-disabled,
+.swiperProductsRecommend .swiper-button-prev.swiper-button-disabled{
+  display: none;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet{
+  background: white !important;
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet-active{
+  background: #00C83C !important;
+}
