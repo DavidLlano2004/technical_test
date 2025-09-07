@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CardExploreProducts Snapshot testing matches snapshot 1`] = `
+<div
+  class="w-full bg-white h-[400px] rounded-lg flex-col flex justify-between overflow-hidden border-[0.5px] border-[#d8d8d8]"
+>
+  <div
+    class="flex-1 flex-col flex justify-end items-end p-3"
+    style="background: url("/mock-image-people-hug.jpg"); background-repeat: no-repeat; background-size: cover; background-position: top;"
+  >
+    <div>
+      <button
+        class="text-white underline bg-primary-custom hover:bg-primary-hover-custom cursor-pointer px-5 py-1 w-auto rounded-2xl text-lg active:opacity-80 transition-all ease-in duration-200"
+      >
+        Explora ahora
+      </button>
+    </div>
+  </div>
+  <div
+    class="h-1.5 bg-orange-light-custom"
+  />
+</div>
+`;
+
+exports[`CardExploreProducts Snapshot testing matches snapshot with different callback 1`] = `
+<div
+  class="w-full bg-white h-[400px] rounded-lg flex-col flex justify-between overflow-hidden border-[0.5px] border-[#d8d8d8]"
+>
+  <div
+    class="flex-1 flex-col flex justify-end items-end p-3"
+    style="background: url("/mock-image-people-hug.jpg"); background-repeat: no-repeat; background-size: cover; background-position: top;"
+  >
+    <div>
+      <button
+        class="text-white underline bg-primary-custom hover:bg-primary-hover-custom cursor-pointer px-5 py-1 w-auto rounded-2xl text-lg active:opacity-80 transition-all ease-in duration-200"
+      >
+        Explora ahora
+      </button>
+    </div>
+  </div>
+  <div
+    class="h-1.5 bg-orange-light-custom"
+  />
+</div>
+`;

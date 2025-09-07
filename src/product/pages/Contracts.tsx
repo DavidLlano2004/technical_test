@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-motion;
 
 export const Contracts = () => {
   return (

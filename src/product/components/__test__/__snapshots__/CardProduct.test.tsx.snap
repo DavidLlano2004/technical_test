@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CardProduct Snapshot matches snapshot for selected state 1`] = `
+<div
+  class="w-full bg-white h-[400px] rounded-lg flex-col flex justify-between overflow-hidden transition ease-in duration-150 shadow cursor-pointer border-[0.5px] border-primary-custom shadow-lg shadow-primary-custom/30"
+>
+  <div
+    class="p-4 flex flex-col justify-between h-full"
+  >
+    <div>
+      <div
+        class="flex justify-end items-center"
+      >
+        <div>
+          <input
+            checked=""
+            data-testid="check-component"
+            type="checkbox"
+          />
+        </div>
+      </div>
+      <div
+        class="px-12"
+      >
+        <p
+          class="text-gray-custom-text font-bold text-lg"
+        >
+          MFUND
+        </p>
+        <p
+          class="text-gray-custom-text text-lg"
+        >
+          #
+          PROD123
+        </p>
+        <div
+          class="h-[0.5px] bg-gray1-custom my-5"
+        />
+        <p
+          class="text-gray-custom-text font-bold text-lg"
+        >
+          Ya cuentas con:
+        </p>
+        <p
+          class="text-lg text-primary-custom font-semibold"
+        >
+          $
+          50.000
+        </p>
+      </div>
+    </div>
+    <div>
+      <img
+        alt="MFUND"
+        class="mx-auto w-10 translate-y-3"
+        src="/mock-icon-mfund.svg"
+      />
+      <div
+        class="bg-gray2-custom p-8 rounded-md"
+      >
+        <p
+          class="text-center text-gray-custom-text font-semibold"
+        >
+          Fondo de inversión mutuo
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="h-1.5 bg-green-dark-custom"
+  />
+</div>
+`;
+
+exports[`CardProduct Snapshot matches snapshot for unselected state 1`] = `
+<div
+  class="w-full bg-white h-[400px] rounded-lg flex-col flex justify-between overflow-hidden transition ease-in duration-150 shadow cursor-pointer border-[0.5px] border-[#d8d8d8] hover:border-primary-custom/50 hover:shadow-primary-custom"
+>
+  <div
+    class="p-4 flex flex-col justify-between h-full"
+  >
+    <div>
+      <div
+        class="flex justify-end items-center"
+      >
+        <div>
+          <input
+            data-testid="check-component"
+            type="checkbox"
+          />
+        </div>
+      </div>
+      <div
+        class="px-12"
+      >
+        <p
+          class="text-gray-custom-text font-bold text-lg"
+        >
+          MFUND
+        </p>
+        <p
+          class="text-gray-custom-text text-lg"
+        >
+          #
+          PROD123
+        </p>
+        <div
+          class="h-[0.5px] bg-gray1-custom my-5"
+        />
+        <p
+          class="text-gray-custom-text font-bold text-lg"
+        >
+          Ya cuentas con:
+        </p>
+        <p
+          class="text-lg text-primary-custom font-semibold"
+        >
+          $
+          50.000
+        </p>
+      </div>
+    </div>
+    <div>
+      <img
+        alt="MFUND"
+        class="mx-auto w-10 translate-y-3"
+        src="/mock-icon-mfund.svg"
+      />
+      <div
+        class="bg-gray2-custom p-8 rounded-md"
+      >
+        <p
+          class="text-center text-gray-custom-text font-semibold"
+        >
+          Fondo de inversión mutuo
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="h-1.5 bg-green-dark-custom"
+  />
+</div>
+`;
